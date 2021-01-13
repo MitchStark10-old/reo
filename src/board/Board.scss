@@ -1,0 +1,28 @@
+.space {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: lightgreen;
+    display: inline-block;
+
+    &.water {
+        background-color: aqua;
+    }
+
+    &.forest {
+        background-color: forestgreen;
+    }
+
+    &.desert {
+        background-color: tan;
+    }
+
+    &.mountain {
+        background-color: gray;
+    }
+
+    * {
+        display: inline;  
+    }
+}

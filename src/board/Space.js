@@ -24,11 +24,11 @@ function getSpaceType() {
 }
 
 export default function Space() {
-    const [spaceType] = React.useState(getSpaceType);
+    const [spaceType] = React.useState(getSpaceType());
 
     return (
-        <div className={'space ' + spaceType}>
+        <span className={'space ' + spaceType.class}>
             <h1>Test</h1>
-        </div>
+        </span>
     );
 }
