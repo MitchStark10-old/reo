@@ -28,7 +28,6 @@ export default function Space() {
 
     return (
         <span className={'space ' + spaceType.class}>
-            <h1>Test</h1>
         </span>
     );
 }
